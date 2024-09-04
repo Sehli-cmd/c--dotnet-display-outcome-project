@@ -1,0 +1,17 @@
+dotnet --version //how to check the .Net version
+dotnet new console -o class2 - how to create a new console application
+
+namespace class2
+{  
+    public class Program 
+    {
+        static void Main (string [] args)
+        {
+            
+        }
+    }
+}
+dotnet run // how to run a dotnet project
+dotnet build // how to build a project
+dotnet new sln // how to create a new solution
+dotnet sln add class2.csproj // adding the csproj file to the solution
